@@ -12,6 +12,6 @@ terraform {
 provider "aws" {}
 
 
-module "configuration" {
-  source      = "./lambda/configuration"
+module "test_alias_versioning" {
+  source      = "./lambda/test_alias_versioning"
 }
