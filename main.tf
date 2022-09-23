@@ -13,5 +13,5 @@ provider "aws" {}
 
 
 module "test_alias_versioning" {
-  source      = "./lambda/test_alias_versioning"
+  source = "./lambda/test_alias_versioning"
 }
