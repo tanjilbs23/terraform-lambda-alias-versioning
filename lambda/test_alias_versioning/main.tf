@@ -6,7 +6,7 @@ module "lambda_function" {
   handler       = "lambda_handler.lambda_handler"
   runtime       = "python3.9"
 
-  source_path = "src/test_alias_versioning"
+  source_path = "lambda/test_alias_versioning/src"
 
   tags = {
     Name = "test_alias_versioning_test"
