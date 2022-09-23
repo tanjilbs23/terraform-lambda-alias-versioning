@@ -9,6 +9,6 @@ module "lambda_function" {
   source_path = "lambda/src/test_alias_versioning"
 
   tags = {
-    Name = "test_alias_versioning"
+    Name = "test_alias_versioning_test"
   }
 }
