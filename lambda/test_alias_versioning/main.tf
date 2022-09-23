@@ -23,11 +23,4 @@ module "alias_no_refresh" {
 
   function_name    = module.lambda_function.lambda_function_name
   function_version = module.lambda_function.lambda_function_version
-
-  # allowed_triggers = {
-  #   AnotherAPIGatewayAny = {
-  #     service    = "apigateway"
-  #     source_arn = "arn:aws:execute-api:eu-west-1:135367859851:abcdedfgse/*/*/*"
-  #   }
-  # }
 }
